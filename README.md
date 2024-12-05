@@ -2,7 +2,7 @@
 
 [日本語で読む](README_ja.md)
 
-A data pack that adds a so-called "resource world."
+A datapack that adds a so-called "resource world."
 
 ## Tested Versions
 
@@ -10,7 +10,7 @@ A data pack that adds a so-called "resource world."
 
 ## How to Use
 
-Place this data pack in the `datapacks` folder of your world.  
+Place this datapack in the `datapacks` folder of your world.  
 The following two dimensions will be added:  
 
 - `resource:overworld`  
