@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"move_to_resource_overworld": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "resource:overworld",
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"gamemode": [
+									"survival"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "resource:make_safe/resource_overworld"
+	}
+}

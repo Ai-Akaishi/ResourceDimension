@@ -20,23 +20,13 @@
 
 ## 移動手段
 
-現在、このデータパックでは移動手段は提供されません。  
-別途、ディメンション移動用のデータパックを公開予定です。  
-  
-もしくは、コマンドで移動を行ってください。  
-以下のようなコマンドで移動できます。  
+次のコマンドで、資源ワールドと通常ワールドを行き来できます。
 
 ```nim
-# 資源オーバーワールドへの移動
-execute in resource:overworld run tp @s ~ ~ ~ ~ ~
-# 資源ネザーへの移動
-execute in resource:the_nether run tp @s ~ ~ ~ ~ ~
-
-# オーバーワールドへの移動
-execute in minecraft:overworld run tp @s ~ ~ ~ ~ ~
-# ネザーへの移動
-execute in minecraft:the_nether run tp @s ~ ~ ~ ~ ~
+function #resource:warp
 ```
+
+資源ワールドへの移動時には、安全確保のため、移動先の一部のブロックが置き換えられます。
 
 ## 連絡はこちら
 

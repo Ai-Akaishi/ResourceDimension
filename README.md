@@ -20,25 +20,13 @@ The following two dimensions will be added:
 
 ## Methods of Travel
 
-Currently, this datapack does not provide any means of travel between dimensions.  
-A separate datapack for dimension travel will be released in the future.  
-  
-Alternatively, you can use commands for travel.  
-The following commands can be used to move between dimensions:  
+You can move between the resource worlds and the standard worlds using the following command:
 
 ```nim
-# Travel to the resource overworld
-execute in resource:overworld run tp @s ~ ~ ~ ~ ~
-
-# Travel to the resource Nether
-execute in resource:the_nether run tp @s ~ ~ ~ ~ ~
-
-# Travel to the overworld
-execute in minecraft:overworld run tp @s ~ ~ ~ ~ ~
-
-# Travel to the Nether
-execute in minecraft:the_nether run tp @s ~ ~ ~ ~ ~
+function #resource:warp
 ```
+
+When traveling to the resource worlds, some blocks at the destination will be replaced for safety purposes.
 
 ## Contact
 
