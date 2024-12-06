@@ -1,10 +1,10 @@
 {
 	"criteria": {
-		"move_to_resource_overworld": {
+		"move_to_resource_the_nether": {
 			"trigger": "changed_dimension",
 			"conditions": {
-				"from": "minecraft:overworld",
-				"to": "resource:overworld",
+				"from": "minecraft:the_nether",
+				"to": "resource:the_nether",
 				"player": [
 					{
 						"condition": "entity_properties",
